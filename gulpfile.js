@@ -40,8 +40,8 @@ function css(done) {
     var processors = [
         easyimport,
         colorFunction(),
-        autoprefixer(),
         tailwind(),
+        autoprefixer(),
         cssnano()
     ];
 
