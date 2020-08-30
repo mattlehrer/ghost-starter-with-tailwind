@@ -1,5 +1,5 @@
 {
-    "name": "ghost-starter-theme",
+    "name": "ghost-starter-with-tailwind",
     "description": "A custom theme for ghost",
     "demo": "https://starter.ghost.io",
     "version": "1.0.0",
@@ -83,5 +83,8 @@
                 "width": 2000
             }
         }
+    },
+    "dependencies": {
+        "tailwindcss": "^1.7.6"
     }
 }
